@@ -16,7 +16,18 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.springProject.StudentManagementSystems.model.StudentRecord;
 import com.springProject.StudentManagementSystems.service.StudentManagementService;
-
+/*
+ * Teacher records 
+ * Teachers(id,name,contact_no)
+ * id,name,contactNo
+ * 
+ * get teacherRecord/{id}
+ * get techerRecords
+ * put techerRecord/add
+ * post techerRecord/edit/{id}
+ * delete techerRecord/delete/{id} 
+ * 
+ */
 @RestController
 public class StudentManagementController {
 
